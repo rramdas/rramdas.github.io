@@ -8,7 +8,7 @@ title: CV
   <p class="cv-title">Engineering Director / Engineering Manager / IT Lead</p>
   <p class="cv-contact">
     Rotterdam, The Netherlands · Born 06-11-1974 (Dutch)<br>
-    <a href="mailto:rramdas@gmail.com">rramdas@gmail.com</a> · +31 6 222 366 84<br>
+    <a href="mailto:rramdas@gmail.com">rramdas@gmail.com</a><br>
     <a href="https://linkedin.com/in/rodneyramdas">LinkedIn</a> ·
     <a href="https://rramdas.github.io/linkedin/">Portfolio</a> ·
     <a href="https://github.com/rramdas">GitHub</a><br>
