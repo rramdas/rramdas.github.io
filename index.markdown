@@ -4,7 +4,6 @@ title: CV
 ---
 
 <div class="cv-header">
-  <h1>Rodney Ramdas</h1>
   <p class="cv-title">Engineering Director / Engineering Manager / IT Lead</p>
   <p class="cv-contact">
     Rotterdam, The Netherlands · Born 06-11-1974 (Dutch)<br>
@@ -44,25 +43,22 @@ My leadership philosophy is simple: serve the needs of people and the business, 
 
 ## Professional Experience
 
-### Director, Digital Lab
+### (Engineering) Director, Digital Lab
 **Royal HaskoningDHV** · 2017–Present
 
 Founder and leader of the Digital Lab, a software innovation group within a purpose-driven engineering consultancy.
 
 **Highlights & Impact**
 
-- Founded and grew the Digital Lab from the ground up; recruited, onboarded, and coached 20+ developers, UX designers, and engineers.
-- Built a high-trust culture with strong 1:1 coaching, career progression guidance, and technical leadership.
-- Led development of **Kes** (Knowledge Expert System), a hybrid LLM + knowledge-model document generation platform.
-  - Kes outperformed pure LLM baselines and expert consultants in independent tests.
-  - Provided massive productivity gains for consultants across the company.
-- Built a national-scale real-time water management system for all Dutch Water Boards, including a geospatial data API powering government decision-making.
-- Delivered 15+ digital twin integrations for major infrastructure and environmental projects; work was shortlisted for a **Bentley Digital Engineering Award**.
-- Championed Agile, Scrum, and modern engineering practices across the Lab.
-- **Product Owner for the company-wide data platform (2024):**
-  - Defined a vision using Domain-Driven Design + data mesh principles.
-  - Delivered operational data products and platform components, moving from concept to production.
-- Recognized for cross-functional leadership — bridging engineering, consultants, product, and strategy.
+- Royal HaskoningDHV needed software capabilities to complement its engineering consultancy. I founded the Digital Lab from scratch, recruiting and coaching 20+ developers, UX designers, and engineers into a high-performing team that now delivers critical digital products across the organization.
+
+- Consultants were spending excessive time on repetitive document generation. I led the development of **Kes** (Knowledge Expert System), a hybrid LLM + knowledge-model platform that outperformed both pure LLM baselines and expert consultants in independent tests, delivering massive productivity gains company-wide.
+
+- The Dutch Water Boards lacked a unified real-time view of national water infrastructure. I built a national-scale water management system with a geospatial data API that now powers government decision-making across all Dutch Water Boards.
+
+- Infrastructure projects struggled to leverage digital twin technology effectively. I delivered 15+ digital twin integrations for major projects, work that was shortlisted for a **Bentley Digital Engineering Award**.
+
+- The company had fragmented data across silos with no unified strategy. As Product Owner for the company-wide data platform (2024), I defined a vision using Domain-Driven Design and data mesh principles, then moved it from concept to production with operational data products now serving multiple business units.
 
 ---
 
@@ -73,11 +69,9 @@ Served as a nomadic integrator across multiple teams, improving engineering prac
 
 **Key Contributions**
 
-- Introduced Domain-Driven Design and modernized the Business Intelligence environment into an analytics-ready data lake.
-- Improved data-driven decision-making by 40%.
-- Reduced processing times by 50%.
-- Strengthened developer culture by emphasizing ownership, craftsmanship, and clarity of impact.
-- Supported teams as an agile coach, improving delivery flow and cross-team collaboration.
+- Coolblue's rapid growth exposed limitations in its Business Intelligence infrastructure. I introduced Domain-Driven Design and transformed the BI environment into an analytics-ready data lake, improving data-driven decision-making by 40% and reducing processing times by 50%.
+
+- Teams operated in silos with inconsistent practices. Working as an agile coach across multiple teams, I strengthened developer culture around ownership and craftsmanship, improving delivery flow and cross-team collaboration.
 
 ---
 
