@@ -1,0 +1,36 @@
+name: Generate CV PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/rodney-ramdas-cv.html'
+  workflow_dispatch:
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Chromium
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser
+
+      - name: Generate PDF
+        run: |
+          chromium-browser --headless --disable-gpu --no-sandbox \
+            --print-to-pdf="assets/rodney-ramdas-cv.pdf" \
+            --no-margins \
+            "file://${{ github.workspace }}/assets/rodney-ramdas-cv.html"
+
+      - name: Commit and push PDF
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/rodney-ramdas-cv.pdf
+          git diff --staged --quiet || git commit -m "Update CV PDF [skip ci]"
+          git push

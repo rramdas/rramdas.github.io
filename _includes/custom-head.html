@@ -1,0 +1,130 @@
+<style>
+.cv-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.cv-header h1 {
+  margin-bottom: 0.25rem;
+  font-size: 2.5rem;
+}
+
+.cv-title {
+  font-size: 1.25rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.cv-contact {
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.cv-contact a {
+  color: #2a7ae2;
+}
+
+.cv-download {
+  margin-top: 1.5rem;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #2a7ae2;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.download-btn:hover {
+  background-color: #1756a9;
+  text-decoration: none;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills-grid ul {
+  flex: 1;
+  min-width: 280px;
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.skills-grid li {
+  margin-bottom: 0.5rem;
+}
+
+.page-content h2 {
+  margin-top: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.page-content h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.page-content h3 + p {
+  margin-top: 0;
+  color: #555;
+}
+
+.page-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.page-content table th,
+.page-content table td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid #e8e8e8;
+}
+
+.page-content table th {
+  background-color: #f7f7f7;
+  font-weight: 600;
+}
+
+@media print {
+  .cv-download,
+  .site-header,
+  .site-footer {
+    display: none;
+  }
+
+  body {
+    font-size: 11pt;
+  }
+
+  .cv-header {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .page-content h2 {
+    margin-top: 1rem;
+    page-break-after: avoid;
+  }
+
+  .page-content h3 {
+    page-break-after: avoid;
+  }
+
+  ul, ol {
+    page-break-inside: avoid;
+  }
+}
+</style>
